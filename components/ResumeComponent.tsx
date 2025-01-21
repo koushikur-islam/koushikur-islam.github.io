@@ -433,11 +433,11 @@ export default function ResumeComponent() {
 
             <SkillComponent />
 
-            <div className='mt-5 mb-10 text-center'>
+            {/* <div className='mt-5 mb-10 text-center'>
                 <button className='px-8 py-3 rounded-full shadow-none outline-none' style={{ backgroundColor: 'var(--primary-color)', color: 'var(--text-color)' }}>
                     <a href="/CV_Koushikur_Islam_2025.pdf" download="CV_Koushikur_Islam_2025">View Latest Resume</a>
                 </button>
-            </div>
+            </div> */}
         </div>
     </div>)
 }
