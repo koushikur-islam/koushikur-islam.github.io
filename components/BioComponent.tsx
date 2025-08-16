@@ -14,15 +14,12 @@ export default function BioComponent() {
                     />
                 </div>
 
-                <p className="font-semibold text-2xl mt-4 overflow-hidden" style={{ color: 'var(--primary-color)' }}>
+                <h1 className="font-semibold text-2xl mt-4 overflow-hidden" style={{ color: 'var(--primary-color)' }}>
                     Koushikur Islam
-                </p>
-                <p className="text-lg pt-2 mb-2">
-                    Research Assistant at The Smart and Distributed Computing Lab
-                </p>
-                <p className="text-base mb-3 italic">
-                    School of Computer, Data and Mathematical Sciences, Western Sydney University, Australia
-                </p>
+                </h1>
+                <h2 className="text-lg pt-2 mb-2">
+                    Researcher in Distributed Systems, Edge & Cloud Computing, Resource Allocation, and Internet of Things(IoT)
+                </h2>
 
                 <SocialComponent />
             </div>

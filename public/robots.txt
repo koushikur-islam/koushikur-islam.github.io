@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://koushikur-islam.github.io/
+
+# Sitemaps
+Sitemap: https://koushikur-islam.github.io/sitemap.xml
