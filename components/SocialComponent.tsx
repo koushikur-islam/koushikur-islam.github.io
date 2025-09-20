@@ -8,14 +8,14 @@ const GoogleScholarIcon = () => (
 export default function SocialComponent() {
     return (<>
         <ul className="list-none social-box">
-            <Link href='mailto:koushikur@outlook.com'><li className="social-items"><MailOutlined /></li></Link>
-            <Link href='https://www.linkedin.com/in/koushikur-islam/'><li className="social-items"><LinkedinFilled /></li></Link>
-            <Link href='https://github.com/koushikur-islam'><li className="social-items"><GithubOutlined /></li></Link>
-            {/* <Link href="https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID">
+            <Link target='blank' href='mailto:koushikur@outlook.com'><li className="social-items"><MailOutlined /></li></Link>
+            <Link target='blank' href='https://www.linkedin.com/in/koushikur-islam/'><li className="social-items"><LinkedinFilled /></li></Link>
+            <Link target='blank' href='https://github.com/koushikur-islam'><li className="social-items"><GithubOutlined /></li></Link>
+            <Link target='blank' href="https://scholar.google.com/citations?user=gkOWEkgAAAAJ&hl=en">
                 <li className="social-items">
                     <GoogleScholarIcon />
                 </li>
-            </Link> */}
+            </Link>
         </ul>
     </>)
 }

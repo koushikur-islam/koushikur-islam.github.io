@@ -17,8 +17,8 @@ export default function BioComponent() {
                 <h1 className="font-semibold text-2xl mt-4 overflow-hidden" style={{ color: 'var(--primary-color)' }}>
                     Koushikur Islam
                 </h1>
-                <h2 className="text-lg pt-2 mb-2">
-                    Researcher in Distributed Systems, Edge & Cloud Computing, Resource Allocation, and Internet of Things(IoT)
+                <h2 className="text-lg pt-2 my-6">
+                    Researcher in Distributed Computing, High Performance Computing, Edge-Cloud Computing and Internet of Things (IoT)
                 </h2>
 
                 <SocialComponent />

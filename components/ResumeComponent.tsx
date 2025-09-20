@@ -40,7 +40,7 @@ export default function ResumeComponent() {
                             className="transition-[height, margin-bottom, padding-top, padding-bottom] left-0 overflow-hidden pb-6 pl-[3.75rem] pr-6 duration-300 ease-in-out">
                             <ul className="list-disc list-inside pl-0 mt-4 mb-2">
                                 <li>Research Assistant</li>
-                                <li style={{ color: 'var(--primary-color)' }}><Link href='mailto:koushikur@outlook.com'><u>koushikur [AT] outlook [DOT] com (anti-spam notation)</u></Link></li>
+                                <li style={{ color: 'var(--primary-color)' }}><Link href=''>koushikur [AT] outlook [DOT] com</Link></li>
                                 <li>Sydney, New South Wales, Australia</li>
                             </ul>
                         </div>
