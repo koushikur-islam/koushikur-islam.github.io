@@ -5,7 +5,7 @@ export default function PublicationsPage() {
     return (<>
         <Head>
             <title>
-                Koush | Publications
+                Koushik | Publications
             </title>
         </Head>
 

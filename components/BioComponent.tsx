@@ -18,7 +18,7 @@ export default function BioComponent() {
                     Koushikur Islam
                 </h1>
                 <h2 className="text-lg pt-2 my-6">
-                    Researcher in Distributed Computing, High Performance Computing, Edge-Cloud Computing and Internet of Things (IoT)
+                    Researcher in Distributed Systems, Edge-Cloud Computing, AI/ML Systems and Internet of Things (IoT)
                 </h2>
 
                 <SocialComponent />
@@ -29,14 +29,9 @@ export default function BioComponent() {
                     Bio
                 </div>
                 <p>
-                    Hi! I'm Koush, short for Koushikur. I'm a final-year postgraduate student at Western Sydney University, Australia, where I'm completing my Master of Information and Communications Technology with a focus on Edge and Cloud Computing.
-                </p>
-                <p className='mt-3'>
-                    I currently work as a Research Assistant at the Smart and Distributed Computing Lab under the guidance of Associate Professor Rodrigo N. Calheiros. At the lab, I've contributed to several research projects, helping design experiments, analyze data, evaluate results, and co-author papers for peer-reviewed journals.
-
-                    My latest work focuses on service placement in the edge-to-cloud continuum, exploring how high-level human intents can guide decision-making.
-
-
+                    Hi! I'm Koushik. I work as a Research Assistant at the Smart and Distributed Computing (SDC) Lab after completing my postgraduate in Master of Information and Communications Technology at Western Sydney University, Australia.
+                    At SDC lab, I work under the guidance of Prof. Bahman Javadi and Associate Prof. Rodrigo N. Calheiros in improving the resource management aspect within the edge-cloud continuum using adaptive and autonomous solutions. 
+                    I vision for a fully operational, autonomous, and self-healing distributed system to adapt to real-time variability in the compute continuum to deliver optimal resource allocation.
                 </p>
 
                 <ResearchComponent />

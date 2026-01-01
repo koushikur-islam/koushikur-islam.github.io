@@ -5,7 +5,7 @@ export default function BioPage() {
   return (<>
     <Head>
       <title>
-        Koush | Bio
+        Koushik | Bio
       </title>
     </Head>
     <BioComponent />

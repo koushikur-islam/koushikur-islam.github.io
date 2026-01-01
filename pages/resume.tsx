@@ -5,7 +5,7 @@ export default function ResumePage() {
     return (<>
         <Head>
             <title>
-                Koush | Resume
+                Koushik | Resume
             </title>
         </Head>
         <ResumeComponent />

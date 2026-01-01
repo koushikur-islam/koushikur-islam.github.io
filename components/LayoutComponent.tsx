@@ -25,9 +25,9 @@ export default function Layout({ children }: any) {
                     <li className={`border-b border-slate-700 sidebar-item ${router?.asPath == '/' ? `sidebar-item-active` : ``} `}>Bio</li>
                 </Link>
 
-                {/* <Link href='/publications' onClick={hideSidebar}>
+                <Link href='/publications' onClick={hideSidebar}>
                     <li className={`border-b border-slate-700 sidebar-item ${router?.asPath == '/skills' ? `sidebar-item-active` : ``} `}>Publications</li>
-                </Link> */}
+                </Link>
 
                 <Link href='/experience' onClick={hideSidebar}>
                     <li className={`border-b border-slate-700 sidebar-item ${router?.asPath == '/about' ? `sidebar-item-active` : ``} `}>Experience</li>

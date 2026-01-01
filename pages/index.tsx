@@ -8,12 +8,12 @@ export default function Home() {
     <>
       <Head>
         <title>
-          Koush | Homepage
+          Koushik | Homepage
         </title>
       </Head>
       <BioComponent />
       <PublicationsComponent />
-      <ExperienceComponent />
+      {/* <ExperienceComponent /> */}
       {/* <ResumeComponent /> */}
     </>
   )
