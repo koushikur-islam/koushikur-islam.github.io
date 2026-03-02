@@ -40,6 +40,10 @@ export default function Layout({ children }: any) {
                 <Link href='/resume' onClick={hideSidebar}>
                     <li className={`border-b border-slate-700 sidebar-item ${router?.asPath == '/resume' ? `sidebar-item-active` : ``} `}>Resume</li>
                 </Link>
+
+                <Link href='/photos' onClick={hideSidebar}>
+                    <li className={`border-b border-slate-700 sidebar-item ${router?.asPath == '/photos' ? `sidebar-item-active` : ``} `}>Photos</li>
+                </Link>
             </ul>
         </div>
         <div style={{ minHeight: '62vh', marginTop: 50 }}>{children}</div>
