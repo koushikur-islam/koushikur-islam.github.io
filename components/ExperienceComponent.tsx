@@ -28,6 +28,38 @@ export default function ExperienceComponent() {
                             <span
                                 data-te-stepper-head-text-ref
                                 className="after:absolute after:flex after:text-[0.8rem] after:content-[data-content] text-lg font-semibold">
+                                Sessional Lecturer (Casual Academic)
+                            </span>
+                        </div>
+                        <div
+                            data-te-stepper-content-ref
+                            className="transition-[height, margin-bottom, padding-top, padding-bottom] left-0 overflow-hidden pb-4 pl-[3.75rem] pr-6 duration-300 ease-in-out">
+                            <div className="text-md font-medium">
+                                School of Computer, Data and Mathematical Sciences - Western Sydney University <Link href='https://sdclab.cdms.westernsydney.edu.au/' target='_blank' ><Button type='link' icon={<LinkOutlined style={{ color: 'var(--primary-color)' }} />}></Button></Link>
+                            </div>
+                            <ul className="list-disc list-inside mt-4 mb-2">
+                                <li>January, 2026 - Present</li>
+                                <li>Onsite</li>
+                                <li>Sydney, Australia</li>
+                            </ul>
+                        </div>
+                    </li>
+
+
+
+                    <li
+                        data-te-stepper-step-ref
+                        className="relative h-fit overflow-hidden after:absolute after:left-[2.05rem] after:top-[1.2rem] after:mt-px after:h-[calc(100%-0rem)] after:w-px after:bg-[#72e2ae] after:content-[''] dark:after:bg-[#72e2ae]">
+                        <div
+                            data-te-stepper-head-ref
+                            className="flex items-center px-6 pt-3 leading-[0.5 rem] no-underline after:content-['']">
+                            <span
+                                data-te-stepper-head-icon-ref
+                                className="mr-3 flex h-[1.2rem] w-[1.2rem] items-center justify-center rounded-full text-sm font-medium" style={{ backgroundColor: 'var(--primary-color)' }}>
+                            </span>
+                            <span
+                                data-te-stepper-head-text-ref
+                                className="after:absolute after:flex after:text-[0.8rem] after:content-[data-content] text-lg font-semibold">
                                 Research Assistant
                             </span>
                         </div>
@@ -43,6 +75,38 @@ export default function ExperienceComponent() {
                                     hypothesis. Co-authored research paper using LaTeX for publication in peer-reviewed conference, enhancing skills in scientific writing
                                     and critical analysis. Prepared documentations with research process and findings to ensure the reproducible and clarity for future research.</li>
                                 <li>January, 2024 - Present</li>
+                                <li>Onsite</li>
+                                <li>Sydney, Australia</li>
+                            </ul>
+                        </div>
+                    </li>
+
+
+                    <li
+                        data-te-stepper-step-ref
+                        className="relative h-fit overflow-hidden after:absolute after:left-[2.05rem] after:top-[1.2rem] after:mt-px after:h-[calc(100%-0rem)] after:w-px after:bg-[#72e2ae] after:content-[''] dark:after:bg-[#72e2ae]">
+                        <div
+                            data-te-stepper-head-ref
+                            className="flex items-center px-6 pt-3 leading-[0.5 rem] no-underline after:content-['']">
+                            <span
+                                data-te-stepper-head-icon-ref
+                                className="mr-3 flex h-[1.2rem] w-[1.2rem] items-center justify-center rounded-full text-sm font-medium" style={{ backgroundColor: 'var(--primary-color)' }}>
+                            </span>
+                            <span
+                                data-te-stepper-head-text-ref
+                                className="after:absolute after:flex after:text-[0.8rem] after:content-[data-content] text-lg font-semibold">
+                                Research Assistant
+                            </span>
+                        </div>
+                        <div
+                            data-te-stepper-content-ref
+                            className="transition-[height, margin-bottom, padding-top, padding-bottom] left-0 overflow-hidden pb-4 pl-[3.75rem] pr-6 duration-300 ease-in-out">
+                            <div className="text-md font-medium">
+                                School of Engineering, Design and Built Environment - Western Sydney University <Link href='https://sdclab.cdms.westernsydney.edu.au/' target='_blank' ><Button type='link' icon={<LinkOutlined style={{ color: 'var(--primary-color)' }} />}></Button></Link>
+                            </div>
+                            <ul className="list-disc list-inside mt-4 mb-2">
+                                <li>Applied distributed systems and AI/ML expertise to interdisciplinary research, to guide Building Information Modeling (BIM) users design circular and reusable designing ensuring privacy at the edge. Proposed a novel methodology for privacy-preserving edge inference and AI systems for BIM circularity in construction to submit to a reputed conference. Improved circularity and waste management for BIM models and waste management by integrating Llama3 at the edge with Autodesk Revit and Dynamo, optimizing cost and environmental impact while ensuring data privacy.</li>
+                                <li>August, 2025 - December, 2025</li>
                                 <li>Onsite</li>
                                 <li>Sydney, Australia</li>
                             </ul>

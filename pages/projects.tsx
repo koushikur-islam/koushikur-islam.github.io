@@ -5,7 +5,7 @@ export default function ProjectsPage() {
   return (<>
     <Head>
       <title>
-        Koushik | Projects
+        Koushikur Islam | Projects
       </title>
     </Head>
     <ProjectComponent />

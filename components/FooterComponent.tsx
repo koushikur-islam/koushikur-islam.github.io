@@ -5,7 +5,7 @@ export default function FooterComponent() {
         <div className="text-center pt-8 sm:pb-5 mb-[45px] md:mb-0 border-t border-slate-700" >
             <div className="limited-box md:mb-0">
                 <p className="text-2xl font-semibold mb-7 overflow-hidden" style={{ color: 'var(--primary-color)' }}>Koushikur Islam</p>
-                <p className="mb-5" style={{ color: 'var(--primary-color)' }}><Link href=''>koushikur [AT] outlook [DOT] com</Link></p>
+                <p className="mb-5" style={{ color: 'var(--primary-color)' }}><Link href='mailto:k.shohag@westernsydney.edu.au'>k [DOT] shohag [AT] westernsydney [DOT] edu [DOT]au</Link></p>
                 <SocialComponent />
             </div>
             <p className="py-4">

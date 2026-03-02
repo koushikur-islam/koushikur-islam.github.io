@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <Head>
         <title>
-          Koushik | Homepage
+          Koushikur Islam | Homepage
         </title>
       </Head>
       <BioComponent />

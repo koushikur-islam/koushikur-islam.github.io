@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function ProjectComponent() {
     return (<div className='py-10'>
         <div className="limited-box">
-            <div className='uppercase text-lg font-semibold pb-3 pl-5' style={{ color: 'var(--primary-color)' }}>
+            <div className='uppercase text-lg font-semibold pb-3 pl-5 mt-5' style={{ color: 'var(--primary-color)' }}>
                 Projects
             </div>
             <ul className="px-5">

@@ -18,7 +18,7 @@ export default function BioComponent() {
                     Koushikur Islam
                 </h1>
                 <h2 className="text-lg pt-2 my-6">
-                    Researcher in Distributed Systems, Edge-Cloud Computing, AI/ML Systems and Internet of Things (IoT)
+                    Sessional Lecturer and Research Assistant at Western Sydney Unversity, Australia
                 </h2>
 
                 <SocialComponent />
@@ -29,9 +29,12 @@ export default function BioComponent() {
                     Bio
                 </div>
                 <p>
-                    Hi! I'm Koushik. I work as a Research Assistant at the Smart and Distributed Computing (SDC) Lab after completing my postgraduate in Master of Information and Communications Technology at Western Sydney University, Australia.
-                    At SDC lab, I work under the guidance of Prof. Bahman Javadi and Associate Prof. Rodrigo N. Calheiros in improving the resource management aspect within the edge-cloud continuum using adaptive and autonomous solutions. 
-                    I vision for a fully operational, autonomous, and self-healing distributed system to adapt to real-time variability in the compute continuum to deliver optimal resource allocation.
+                    I’m a Sessional Lecturer (Casual Academic) within the School of Computer, Data and Mathematical Sciences at Western Sydney University, Australia. I also work as a Research Assistant at the Smart and Distributed Computing (SDC) Lab under the guidance of Prof. Bahman Javadi and Associate Prof. Rodrigo N. Calheiros.
+
+                    <br/>
+                    <br/>
+                    
+                    My research interests lie in improving resource management within the edge–cloud continuum using adaptive and autonomous solutions. I envision a fully operational, autonomous, and self-healing distributed system that adapts to real-time variability in the compute continuum to deliver optimal resource allocation.
                 </p>
 
                 <ResearchComponent />

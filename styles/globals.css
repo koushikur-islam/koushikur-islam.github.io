@@ -195,3 +195,51 @@ button {
     font-size: 14px;
     display: inline-block;
 }
+
+.photo-grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: grid;
+  gap: 16px;
+
+  /* Bigger min size => fewer columns */
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+/* Optional: cap to 4 columns on very wide screens */
+@media (min-width: 1280px) {
+  .photo-grid {
+    grid-template-columns: repeat(4, minmax(260px, 1fr));
+  }
+}
+
+.photo-item {
+  text-align: center;
+}
+
+/* Make a consistent tile size */
+.photo-image-container {
+  width: 100%;
+  aspect-ratio: 4 / 3;     /* looks nicer for mixed landscape/portrait */
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+
+  background-color: var(--light-green);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+/* Ant Design Image renders an <img> inside a wrapper.
+   Force it to fill the box and crop. */
+.photo-image-container .ant-image,
+.photo-image-container .ant-image-img {
+  width: 100%;
+  height: 100%;
+}
+
+.photo-image-container .ant-image-img {
+  object-fit: cover;      /* <-- THIS is the magic crop-to-fill */
+  display: block;
+}

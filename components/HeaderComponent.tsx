@@ -45,6 +45,10 @@ export default function HeaderComponent() {
                                 <li className={`navbar-item ${router?.asPath == '/resume' ? `navbar-active` : ``} `}>Resume</li>
                             </Link>
 
+                            <Link href='/photos'>
+                                <li className={`navbar-item ${router?.asPath == '/photos' ? `navbar-active` : ``} `}>Photos</li>
+                            </Link>
+
                             {/* <li>
                                 <button className='px-7 py-2 rounded-full shadow-none outline-none' style={{ backgroundColor: 'var(--primary-color)', color: 'var(--text-color)' }}>Contact</button>
                             </li> */}

@@ -5,7 +5,7 @@ export default function ExperiencePage() {
     return (<>
         <Head>
             <title>
-                Koushik | Experience
+                Koushikur Islam | Experience
             </title>
         </Head>
 

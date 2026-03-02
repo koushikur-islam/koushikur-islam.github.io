@@ -5,7 +5,7 @@ export default function SkillsPage() {
     return (<>
         <Head>
             <title>
-                Koushik Islam | Skills
+                Koushikur Islam | Skills
             </title>
         </Head>
         <SkillComponent />
