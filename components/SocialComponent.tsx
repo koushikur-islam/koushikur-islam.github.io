@@ -8,7 +8,6 @@ const GoogleScholarIcon = () => (
 export default function SocialComponent() {
     return (<>
         <ul className="list-none social-box">
-            <Link target='blank' href='mailto:k.shohag@westernsydney.edu.au'><li className="social-items"><MailOutlined /></li></Link>
             <Link target='blank' href='https://www.linkedin.com/in/koushikur-islam/'><li className="social-items"><LinkedinFilled /></li></Link>
             <Link target='blank' href='https://github.com/koushikur-islam'><li className="social-items"><GithubOutlined /></li></Link>
             <Link target='blank' href="https://scholar.google.com/citations?user=gkOWEkgAAAAJ&hl=en">
