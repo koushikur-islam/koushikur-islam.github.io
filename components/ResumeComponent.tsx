@@ -39,7 +39,7 @@ export default function ResumeComponent() {
                             data-te-stepper-content-ref
                             className="transition-[height, margin-bottom, padding-top, padding-bottom] left-0 overflow-hidden pb-6 pl-[3.75rem] pr-6 duration-300 ease-in-out">
                             <ul className="list-disc list-inside pl-0 mt-4 mb-2">
-                                <li style={{ color: 'var(--primary-color)' }}><Link href='mailto:k.shohag@westernsydney.edu.au'>k [DOT] shohag [AT] westernsydney [DOT] edu [DOT]au</Link></li>
+                                <li style={{ color: 'var(--primary-color)' }}><Link href=''>k [DOT] shohag [AT] westernsydney [DOT] edu [DOT]au</Link></li>
                                 <li>Sydney, New South Wales, Australia</li>
                             </ul>
                         </div>
