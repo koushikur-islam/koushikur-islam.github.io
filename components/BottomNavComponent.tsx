@@ -16,13 +16,13 @@ export default function BottomNavComponent() {
                     <li className={`navbar-item ${router?.asPath == '/experience' ? `navbar-active` : ``} `}>Experience</li>
                 </Link>
 
-                {/* <Link href='/publications'>
+                <Link href='/publications'>
                     <li className={`navbar-item ${router?.asPath == '/publications' ? `navbar-active` : ``} `}>Publications</li>
-                </Link> */}
-
-                <Link href='/projects'>
-                    <li className={`navbar-item ${router?.asPath == '/projects' ? `navbar-active` : ``} `}>Projects</li>
                 </Link>
+
+                {/* <Link href='/projects'>
+                    <li className={`navbar-item ${router?.asPath == '/projects' ? `navbar-active` : ``} `}>Projects</li>
+                </Link> */}
 
                 <Link href='/resume'>
                     <li className={`navbar-item ${router?.asPath == '/resume' ? `navbar-active` : ``} `}>Resume</li>

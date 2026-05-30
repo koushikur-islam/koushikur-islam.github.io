@@ -37,9 +37,9 @@ export default function HeaderComponent() {
                                 <li className={`navbar-item ${router?.asPath == '/experience' ? `navbar-active` : ``} `}>Experience</li>
                             </Link>
 
-                            <Link href='/projects'>
+                            {/* <Link href='/projects'>
                                 <li className={`navbar-item ${router?.asPath == '/projects' ? `navbar-active` : ``} `}>Projects</li>
-                            </Link>
+                            </Link> */}
 
                             <Link href='/resume'>
                                 <li className={`navbar-item ${router?.asPath == '/resume' ? `navbar-active` : ``} `}>Resume</li>

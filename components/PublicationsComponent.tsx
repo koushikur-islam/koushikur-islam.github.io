@@ -9,9 +9,9 @@ export default function PublicationsComponent() {
             <ul className='px-5'>
                 <li className='border-t border-slate-700 rounded pb-3'>
                     <div className='mt-3'>
+                        <p className='mr font-semibold text-lg'>A Quality and Privacy-Aware Edge–Cloud Continuum Frameworkfor Internet of Things Applications </p>
                         <p className='my-2'> Kanaka Sai Jagarlamudi, Jahedul Anowar, <label style={{ color: 'var(--primary-color)' }}>Koushikur Islam </label>, Rodrigo N. Calheiros, Bahman Javadi</p>
-                        <p className='mr font-semibold text-lg'>A Quality and Privacy-Aware Edge–Cloud Continuum Frameworkfor Internet of Things Applications <br />
-                            <label className='italic font-normal text-base'>Preprint</label></p>
+                        <p><label className='italic font-normal text-base'>Preprint</label></p>
                         <p className=' mb-3 mt-2'>DOI: <a className='underline' target='_blank' href="https://doi.org/10.2139/ssrn.6754128">10.2139/ssrn.6754128</a> </p>
                         <p className="research-item">Elsevier</p>
                         <p className="research-item">Journal</p>
@@ -21,9 +21,9 @@ export default function PublicationsComponent() {
 
                 <li className='border-t border-slate-700 rounded pb-3'>
                     <div className='mt-3'>
+                        <p className='mr font-semibold text-lg'>A Scalable Computing Continuum Framework for Ambient Assisted Living </p>
                         <p className='my-2'>Jahedul Anowar, <label style={{ color: 'var(--primary-color)' }}>Koushikur Islam </label>, Kanaka Sai Jagarlamudi , Bahman Javadi , Rodrigo N. Calheiros</p>
-                        <p className='mr font-semibold text-lg'>A Scalable Computing Continuum Framework for Ambient Assisted Living <br />
-                            <label className='italic font-normal text-base'>The 26th IEEE International Symposium on Cluster, Cloud, and Internet Computing (CCGrid, 2026), Sydney, Australia</label></p>
+                        <p><label className='italic font-normal text-base'>The 26th IEEE International Symposium on Cluster, Cloud, and Internet Computing (CCGrid, 2026), Sydney, Australia</label></p>
                         <p className=' mb-3 mt-2'>DOI: Accepted</p>
                         <p className="research-item">IEEE</p>
                         <p className="research-item">Conference</p>
@@ -34,9 +34,9 @@ export default function PublicationsComponent() {
 
                 <li className='border-t border-slate-700 rounded pb-3'>
                     <div className='mt-3'>
+                        <p className='mr font-semibold text-lg'>MicroIntent: Intent-Based Placement Strategy for Microservice Application in the Compute Continuum Using LLMs </p>
                         <p className='my-2'><label style={{ color: 'var(--primary-color)' }}>Koushikur Islam</label>, Guilherme da Cunha Rodrigues, Bahman Javadi, Rodrigo N. Calheiros</p>
-                        <p className='mr font-semibold text-lg'>MicroIntent: Intent-Based Placement Strategy for Microservice Application in the Compute Continuum Using LLMs <br />
-                            <label className='italic font-normal text-base'>The 9th IEEE International Conference on Smart Internet of Things (SmartIoT 2025), Sydney, Australia</label></p>
+                        <p><label className='italic font-normal text-base'>The 9th IEEE International Conference on Smart Internet of Things (SmartIoT 2025), Sydney, Australia</label></p>
                         <p className=' mb-3 mt-2'>DOI: <a className='underline' target='_blank' href="https://ieeexplore.ieee.org/document/11311632">10.1109/SmartIoT66867.2025.00026</a></p>
                         <p className="research-item">IEEE</p>
                         <p className="research-item">Conference</p>
@@ -44,17 +44,17 @@ export default function PublicationsComponent() {
                     </div>
                 </li>
 
-                <li className='border-t border-slate-700 rounded pb-3'>
+                {/* <li className='border-t border-slate-700 rounded pb-3'>
                     <div className='mt-3'>
+                        <p className='mr font-semibold text-lg'>Agent-Based LSTM Forecasting for Efficient Resource Allocation in Edge Infrastructures </p>
                         <p className='my-2'>Fabio Diniz Rossi, <label style={{ color: 'var(--primary-color)' }}>Koushikur Islam</label>, Rodrigo Neves Calheiros</p>
-                        <p className='mr font-semibold text-lg'>Agent-Based LSTM Forecasting for Efficient Resource Allocation in Edge Infrastructures <br />
-                            <label className='italic font-normal text-base'>Springer Nature Compting</label></p>
+                        <p><label className='italic font-normal text-base'>Springer Nature Compting</label></p>
                         <p className=' mb-3 mt-2'>DOI: Under Review - <a className='underline' target='_blank' href="/publications/agentic-edge.pdf">[PDF]</a></p>
                         <p className="research-item">Springer Nature</p>
                         <p className="research-item">Journal</p>
                         <p className="research-item">Computing</p>
                     </div>
-                </li>
+                </li> */}
             </ul>
         </div>
     </div >)

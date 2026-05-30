@@ -33,9 +33,9 @@ export default function Layout({ children }: any) {
                     <li className={`border-b border-slate-700 sidebar-item ${router?.asPath == '/about' ? `sidebar-item-active` : ``} `}>Experience</li>
                 </Link>
 
-                <Link href='/projects' onClick={hideSidebar}>
+                {/* <Link href='/projects' onClick={hideSidebar}>
                     <li className={`border-b border-slate-700 sidebar-item ${router?.asPath == '/projects' ? `sidebar-item-active` : ``} `}>Projects</li>
-                </Link>
+                </Link> */}
 
                 <Link href='/resume' onClick={hideSidebar}>
                     <li className={`border-b border-slate-700 sidebar-item ${router?.asPath == '/resume' ? `sidebar-item-active` : ``} `}>Resume</li>
