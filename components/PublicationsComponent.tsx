@@ -10,7 +10,7 @@ export default function PublicationsComponent() {
                 <li className='border-t border-slate-700 rounded pb-3'>
                     <div className='mt-3'>
                         <p className='mr font-semibold text-lg'>A Quality and Privacy-Aware Edge–Cloud Continuum Frameworkfor Internet of Things Applications </p>
-                        <p className='my-2'> Kanaka Sai Jagarlamudi, Jahedul Anowar, <label style={{ color: 'var(--primary-color)' }}>Koushikur Islam </label>, Rodrigo N. Calheiros, Bahman Javadi</p>
+                        <p className='my-2'> Kanaka Sai Jagarlamudi, Jahedul Anowar, <label style={{ color: 'var(--primary-color)' }}>Koushikur Islam </label>, Fatemeh Mirhakimi, Rodrigo N. Calheiros, Bahman Javadi</p>
                         <p><label className='italic font-normal text-base'>Preprint</label></p>
                         <p className=' mb-3 mt-2'>DOI: <a className='underline' target='_blank' href="https://doi.org/10.2139/ssrn.6754128">10.2139/ssrn.6754128</a> </p>
                         <p className="research-item">Elsevier</p>
