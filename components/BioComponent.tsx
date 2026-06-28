@@ -6,9 +6,9 @@ export default function BioComponent() {
     return (<div className='py-10 mt-6'>
         <div className='limited-box'>
             <div className="text-center px-3 md:px-0 flex flex-col items-center">
-                <div className="border-2 border-emerald-500 rounded-full w-64 h-64 p-2 flex items-center justify-center overflow-hidden">
+                <div className="border-4 border-emerald-500 rounded-full w-64 h-64 flex items-center justify-center overflow-hidden">
                     <Image
-                        src="./headshot.png"
+                        src="./headshot.jpg"
                         alt="No profile image available."
                         className="w-full h-full object-cover"
                     />
