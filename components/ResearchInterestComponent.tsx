@@ -9,8 +9,9 @@ export default function ResearchComponent() {
             <div className="md:flex">
                 <ul className="m-0 p-0">
                     <li className="research-item">Distributed Systems</li>
-                    <li className="research-item">Edge Intelligence</li>
-                    <li className="research-item">AI/ML Systems</li>
+                    <li className="research-item">Cloud Computing</li>
+                    <li className="research-item">Edge Computing</li>
+                    <li className="research-item">Internet of Things (IoT)</li>
                 </ul>
             </div>
         </div>

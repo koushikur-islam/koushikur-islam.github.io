@@ -289,7 +289,7 @@ export default function ResumeComponent() {
                                 <Link href='https://www.westernsydney.edu.au/' target='_blank' ><Button type='link' icon={<LinkOutlined style={{ color: 'var(--primary-color)' }} />}></Button></Link>
                             </div>
                             <ul className="list-disc list-inside mt-4 mb-2">
-                                <li>CGPA: 6.313 out of 7.00</li>
+                                {/* <li>CGPA: 6.313 out of 7.00</li> */}
                                 <li>Passing year: 2024</li>
                                 <li>School of Computer, Data and Mathematical Sciences</li>
                                 <li>Sydney, NSW, Australia</li>
@@ -321,7 +321,7 @@ export default function ResumeComponent() {
                                 <Link href='https://www.aiub.edu/' target='_blank' ><Button type='link' icon={<LinkOutlined style={{ color: 'var(--primary-color)' }} />}></Button></Link>
                             </div>
                             <ul className="list-disc list-inside mt-4 mb-2">
-                                <li>CGPA: 3.97 out of 4.00</li>
+                                {/* <li>CGPA: 3.97 out of 4.00</li> */}
                                 <li>Passing year: 2021</li>
                                 <li>Faculty of Science and Technology</li>
                                 <li>Dhaka, Bangladesh</li>
@@ -329,7 +329,7 @@ export default function ResumeComponent() {
                         </div>
                     </li>
 
-                                        <li
+                                        {/* <li
                         data-te-stepper-step-ref
                         className="relative h-fit overflow-hidden after:absolute after:left-[2.05rem] after:top-[-1.0rem] after:mt-px after:h-[calc(100%)] after:w-px after:bg-[#72e2ae] after:content-[''] dark:after:bg-[#72e2ae]">
                         <div
@@ -359,7 +359,7 @@ export default function ResumeComponent() {
                                 <li>Dhaka, Bangladesh</li>
                             </ul>
                         </div>
-                    </li>
+                    </li> */}
                 </ul>
 
 

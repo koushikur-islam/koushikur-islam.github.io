@@ -43,11 +43,11 @@ export default function PublicationsComponent() {
                         <p className='my-2'> <label style={{ color: 'var(--primary-color)' }}>Koushikur Islam</label>, Rodrigo N. Calheiros</p>
                         <p><label className='italic font-normal text-base'>Journal of Systems Architecture</label></p>
                         <p className=' mb-3 mt-2'>DOI:
-                            <a className='underline mr-3' target='_blank' href="">TBD</a>
-                            <a className='underline' style={{ color: 'var(--primary-color)' }} target='_blank' rel='noopener noreferrer' href='publications/IntentEngine.pdf'>[PDF] </a>
+                            <a className='underline ml-2 mr-4' target='_blank'> Just Accepted </a>
+                            <a className='' style={{ color: 'var(--primary-color)' }} target='_blank' rel='noopener noreferrer' href='publications/IntentEngine.pdf'>[PDF] </a>
                         </p>
-                        <p className="research-item">Elsevier</p>
                         <p className="research-item">Journal</p>
+                        <p className="research-item">Elsevier</p>
                         <p className="research-item">JSA</p>
                     </div>
                 </li>
@@ -59,11 +59,11 @@ export default function PublicationsComponent() {
                         <p className='my-2'>Jahedul Anowar, <label style={{ color: 'var(--primary-color)' }}>Koushikur Islam</label>, Kanaka Sai Jagarlamudi , Bahman Javadi , Rodrigo N. Calheiros</p>
                         <p><label className='italic font-normal text-base'>The 26th IEEE International Symposium on Cluster, Cloud, and Internet Computing Workshop (CCGridW, 2026), Sydney, Australia</label></p>
                         <p className=' mb-3 mt-2'>DOI:
-                            <a className='underline mr-3' target='_blank' href=""> TBD</a>
-                            <a className='underline' style={{ color: 'var(--primary-color)' }} target='_blank' rel='noopener noreferrer' href='publications/CCGrid2026.pdf'>[PDF] </a>
+                            <a className='underline ml-2 mr-4' target='_blank' >Just Accepted</a>
+                            <a className='' style={{ color: 'var(--primary-color)' }} target='_blank' rel='noopener noreferrer' href='publications/CCGrid2026.pdf'>[PDF] </a>
                         </p>
-                        <p className="research-item">IEEE</p>
                         <p className="research-item">Conference</p>
+                        <p className="research-item">IEEE</p>
                         <p className="research-item">CCGridW</p>
                     </div>
                 </li>
@@ -74,11 +74,11 @@ export default function PublicationsComponent() {
                         <p className='my-2'><label style={{ color: 'var(--primary-color)' }}>Koushikur Islam</label>, Guilherme da Cunha Rodrigues, Bahman Javadi, Rodrigo N. Calheiros</p>
                         <p><label className='italic font-normal text-base'>The 9th IEEE International Conference on Smart Internet of Things (SmartIoT 2025), Sydney, Australia</label></p>
                         <p className=' mb-3 mt-2'>DOI:
-                            <a className='underline mr-3' target='_blank' href="https://ieeexplore.ieee.org/document/11311632">10.1109/SmartIoT66867.2025.00026</a>
-                            <a className='underline' style={{ color: 'var(--primary-color)' }} target='_blank' rel='noopener noreferrer' href='publications/SmartIoT2025.pdf'>[PDF] </a>
+                            <a className='underline ml-2 mr-4' target='_blank' href="https://ieeexplore.ieee.org/document/11311632">10.1109/SmartIoT66867.2025.00026</a>
+                            <a className='' style={{ color: 'var(--primary-color)' }} target='_blank' rel='noopener noreferrer' href='publications/SmartIoT2025.pdf'>[PDF] </a>
                         </p>
-                        <p className="research-item">IEEE</p>
                         <p className="research-item">Conference</p>
+                        <p className="research-item">IEEE</p>
                         <p className="research-item">SmartIoT</p>
                     </div>
                 </li>
