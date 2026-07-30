@@ -45,7 +45,7 @@ export default function PublicationsComponent() {
                         <p className='my-2'> <label style={{ color: 'var(--primary-color)' }}>Koushikur Islam</label>, Rodrigo N. Calheiros</p>
                         <p><label className='italic font-normal text-base'>Journal of Systems Architecture</label></p>
                         <p className=' mb-3 mt-2'>DOI:
-                            <a className='underline ml-2 mr-4' target='_blank'> https://doi.org/10.1016/j.sysarc.2026.103938 </a>
+                            <a className='underline ml-2 mr-4' target='_blank' href="https://doi.org/10.1016/j.sysarc.2026.103938 ">https://doi.org/10.1016/j.sysarc.2026.103938 </a>
                             <a className='' style={{ color: 'var(--primary-color)' }} target='_blank' rel='noopener noreferrer' href='publications/IntentEngine.pdf'>[PDF] </a>
                         </p>
                         <p className="research-item">Journal</p>
@@ -76,7 +76,7 @@ export default function PublicationsComponent() {
                         <p className='my-2'><label style={{ color: 'var(--primary-color)' }}>Koushikur Islam</label>, Guilherme da Cunha Rodrigues, Bahman Javadi, Rodrigo N. Calheiros</p>
                         <p><label className='italic font-normal text-base'>The 9th IEEE International Conference on Smart Internet of Things (SmartIoT 2025), Sydney, Australia</label></p>
                         <p className=' mb-3 mt-2'>DOI:
-                            <a className='underline ml-2 mr-4' target='_blank' href="https://doi.org/10.1109/SmartIoT66867.2025.00026">10.1109/SmartIoT66867.2025.00026</a>
+                            <a className='underline ml-2 mr-4' target='_blank' href="https://doi.org/10.1109/SmartIoT66867.2025.00026">https://doi.org/10.1109/SmartIoT66867.2025.00026</a>
                             <a className='' style={{ color: 'var(--primary-color)' }} target='_blank' rel='noopener noreferrer' href='publications/SmartIoT2025.pdf'>[PDF] </a>
                         </p>
                         <p className="research-item">Conference</p>
