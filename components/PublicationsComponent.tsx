@@ -1,11 +1,11 @@
 import { DatabaseOutlined, CodeOutlined, LaptopOutlined, CloudOutlined, LinkOutlined } from '@ant-design/icons';
 import Image from 'next/image';
-export default function PublicationsComponent(title: string) {
+export default function PublicationsComponent() {
     var title = "publications"
     return (< div className=''>
         <div className="limited-box">
             <div className='uppercase text-lg font-semibold pb-3 pl-5' style={{ color: 'var(--primary-color)' }}>
-                {title}
+                Publications
             </div>
             <ul className='px-5'>
                 {/* 
