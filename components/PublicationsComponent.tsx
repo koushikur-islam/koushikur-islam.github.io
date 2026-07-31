@@ -61,7 +61,7 @@ export default function PublicationsComponent() {
                         <p className='my-2'>Jahedul Anowar, <label style={{ color: 'var(--primary-color)' }}>Koushikur Islam</label>, Kanaka Sai Jagarlamudi , Bahman Javadi , Rodrigo N. Calheiros</p>
                         <p><label className='italic font-normal text-base'>The 26th IEEE International Symposium on Cluster, Cloud, and Internet Computing Workshop (CCGridW, 2026), Sydney, Australia</label></p>
                         <p className=' mb-3 mt-2'>DOI:
-                            <a className='underline ml-2 mr-4' target='_blank' >Just Accepted</a>
+                            <a className='underline ml-2 mr-4' target='_blank' href="https://doi.org/10.1109/CCGridW69005.2026.00024">https://doi.org/10.1109/CCGridW69005.2026.00024</a>
                             <a className='' style={{ color: 'var(--primary-color)' }} target='_blank' rel='noopener noreferrer' href='publications/CCGrid2026.pdf'>[PDF] </a>
                         </p>
                         <p className="research-item">Conference</p>
